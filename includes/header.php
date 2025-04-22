@@ -16,7 +16,7 @@
     <header class="flex items-center justify-between p-4 md:px-10 shadow-sm bg-white dark:bg-[#121212]">
         <!-- Logo -->
         <div class="flex-shrink-0">
-            <img src="chemin/vers/logo.png" alt="KamerBus Logo" class="h-10 w-auto" />
+            <img src="publics\assets\kamerbuslogojpg.jpg" alt="KamerBus Logo" class="h-10 w-auto" />
         </div>
 
         <!-- Dark Mode Toggle -->
