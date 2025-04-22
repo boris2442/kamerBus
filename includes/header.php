@@ -37,7 +37,7 @@
         </nav>
 
         <!-- Fullscreen Menu (Mobile) -->
-        <div id="mobileMenu" class="fixed inset-0 bg-white dark:bg-[#121212] z-50 hidden flex-col items-center justify-center space-y-8 text-2xl font-semibold">
+        <div id="mobileMenu" class="fixed inset-0 bg-white dark:bg-[#121212] z-50 hidden flex-col items-center justify-center space-y-8 text-2xl font-semibold ">
             <!-- Close Button -->
             <button id="closeMenu" class="absolute top-5 right-5 text-2xl">&times;</button>
             <div class="flex flex-col gap-[10px]">
@@ -66,7 +66,7 @@
         }
 
         .nav-link:hover::after {
-            width: 100%;
+            width: 80%;
         }
 
         .nav-link.active {

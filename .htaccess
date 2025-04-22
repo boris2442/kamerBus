@@ -1,5 +1,5 @@
 RewriteEngine on
-ErrorDocument 404 http://localhost/gestion_des_taches/404
+ErrorDocument 404 http://localhost/gestion_bus_cameroun/404
 
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
