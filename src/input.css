@@ -1,3 +1,30 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 /* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
+
+
+
+
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    left: 0;
+    bottom: -4px;
+    background-color: #FF7043;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 80%;
+}
+
+.nav-link.active {
+    text-shadow: 0 0 8px rgba(255, 112, 67, 0.8);
+}
