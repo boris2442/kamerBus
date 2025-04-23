@@ -1,4 +1,4 @@
-<header class="flex items-center justify-between p-4 md:px-10 shadow-sm bg-white dark:bg-[#121212]">
+<header class="flex items-center justify-between p-4 md:px-10 shadow-sm bg-white dark:bg-[#121212] sticky top-0 z-50 transition-colors duration-300">
     <!-- Logo -->
     <div class="flex-shrink-0">
         <img src="publics\assets\kamerbuslogojpg.jpg" alt="KamerBus Logo" class=" w-[70px] h-[70px] md:h-[100px] md:w-[100px] rounded-[50%]" />
@@ -19,7 +19,8 @@
         <a href="index" class="nav-link">Home</a>
         <a href="about" class="nav-link">About</a>
         <a href="compagnie" class="nav-link">compagnies</a>
-        <a href="contact" class="nav-link">Reservez</a>
+        <a href="contact" class="nav-link">contact</a>
+        <a href="reservation" class="nav-link">Reservez</a>
     </nav>
 
     <!-- Fullscreen Menu (Mobile) -->
@@ -30,6 +31,7 @@
             <a href="index" class="nav-link text-[15px]">Home</a>
             <a href="about" class="nav-link text-[15px]">About</a>
             <a href="compagnie" class="nav-link">compagnies</a>
+            <a href="contact" class="nav-link">contact</a>
             <a href="contact" class="nav-link text-[15px]">Reservez</a>
         </div>
     </div>
