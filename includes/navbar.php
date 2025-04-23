@@ -10,7 +10,7 @@
     </button>
 
     <!-- Hamburger Button (Mobile) -->
-    <button id="menuToggle" class="md:hidden text-3xl focus:outline-none">
+    <button id="menuToggle" class="md:hidden text-3xl focus:outline-none z-50">
         ☰
     </button>
 
@@ -24,7 +24,7 @@
     <!-- Fullscreen Menu (Mobile) -->
     <div id="mobileMenu" class="fixed inset-0 bg-white dark:bg-[#121212] z-50 hidden flex-col items-center justify-center space-y-8 text-2xl font-semibold ">
         <!-- Close Button -->
-        <button id="closeMenu" class="absolute top-5 right-5 text-2xl">&times;</button>
+        <button id="closeMenu" class="absolute top-5 right-5 text-3xl z-50">&times;</button>
         <div class="flex flex-col gap-[10px]">
             <a href="index.php" class="nav-link text-[15px]">Home</a>
             <a href="about.php" class="nav-link text-[15px]">About</a>
@@ -35,4 +35,4 @@
 
 
 
-<!-- Icônes Google (à inclure dans le <head> de ta page) -->
+

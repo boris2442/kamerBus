@@ -2,8 +2,12 @@
 @custom-variant dark (&:where(.dark, .dark *));
 /* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
 
-
-
+*,::after, ::before{
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+    font-family:'Poppins', monospace;
+}
 
 .nav-link {
     position: relative;
@@ -23,7 +27,7 @@
 
 .nav-link:hover::after {
     width: 80%;
-}
+} 
 
 .nav-link.active {
     text-shadow: 0 0 8px rgba(255, 112, 67, 0.8);
