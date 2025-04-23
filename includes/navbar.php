@@ -16,9 +16,9 @@
 
     <!-- Nav Menu (Desktop) -->
     <nav class="hidden md:flex space-x-8 text-lg font-medium">
-        <a href="index.php" class="nav-link">Home</a>
-        <a href="about.php" class="nav-link">About</a>
-        <a href="contact.php" class="nav-link">Reservez</a>
+        <a href="index" class="nav-link">Home</a>
+        <a href="about" class="nav-link">About</a>
+        <a href="contact" class="nav-link">Reservez</a>
     </nav>
 
     <!-- Fullscreen Menu (Mobile) -->
@@ -26,9 +26,9 @@
         <!-- Close Button -->
         <button id="closeMenu" class="absolute top-5 right-5 text-3xl z-50">&times;</button>
         <div class="flex flex-col gap-[10px]">
-            <a href="index.php" class="nav-link text-[15px]">Home</a>
-            <a href="about.php" class="nav-link text-[15px]">About</a>
-            <a href="contact.php" class="nav-link text-[15px]">Reservez</a>
+            <a href="index" class="nav-link text-[15px]">Home</a>
+            <a href="about" class="nav-link text-[15px]">About</a>
+            <a href="contact" class="nav-link text-[15px]">Reservez</a>
         </div>
     </div>
 </header>
