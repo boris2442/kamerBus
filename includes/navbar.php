@@ -18,6 +18,7 @@
     <nav class="hidden md:flex space-x-8 text-lg font-medium">
         <a href="index" class="nav-link">Home</a>
         <a href="about" class="nav-link">About</a>
+        <a href="compagnie" class="nav-link">compagnies</a>
         <a href="contact" class="nav-link">Reservez</a>
     </nav>
 
@@ -28,6 +29,7 @@
         <div class="flex flex-col gap-[10px]">
             <a href="index" class="nav-link text-[15px]">Home</a>
             <a href="about" class="nav-link text-[15px]">About</a>
+            <a href="compagnie" class="nav-link">compagnies</a>
             <a href="contact" class="nav-link text-[15px]">Reservez</a>
         </div>
     </div>
