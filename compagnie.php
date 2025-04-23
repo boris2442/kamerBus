@@ -3,13 +3,11 @@ require_once "includes/header.php";
 
 ?>
 <!-- Swiper CSS -->
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-<!-- <section class="bg-white py-16 px-6 md:px-16">
-  <h2 class="text-3xl font-bold text-center text-[#121212] mb-4">Nos compagnies partenaires</h2>
-  <p class="text-center text-gray-600 max-w-2xl mx-auto mb-10">
+
+<section class=" py-16 px-6 md:px-16">
+  <h2 class="text-3xl font-bold text-center  mb-4">Nos compagnies partenaires</h2>
+  <p class="text-center  max-w-2xl mx-auto mb-10">
     KamerBUS collabore avec des agences de transport fiables à travers le Cameroun pour vous garantir un service rapide, sécurisé et confortable.
   </p>
 
@@ -48,11 +46,11 @@ require_once "includes/header.php";
 </div>
 </div>
 </section>
--->
 
-<section class="bg-white py-16 px-6 md:px-16">
+
+<section class=" py-16 px-6 md:px-16">
     <h2 class="text-3xl font-bold text-center text-[#121212] mb-4">Nos compagnies partenaires</h2>
-    <p class="text-center text-gray-600 max-w-2xl mx-auto mb-10">
+    <p class="text-center  max-w-2xl mx-auto mb-10">
         KamerBUS collabore avec des agences de transport fiables pour vous offrir un service sécurisé et confortable.
     </p>
 
@@ -61,23 +59,23 @@ require_once "includes/header.php";
         <div class="swiper-wrapper">
             <!-- Slide 1 -->
             <div class="swiper-slide flex items-center justify-center bg-gray-100 p-6 rounded-xl shadow">
-                <img src="chemin/vers/logo1.png" alt="Finexs" class="h-16 object-contain" />
+                <img src="./publics/assets/kambus.jpg" alt="Finexs" class="w-[100%] h-[100%] object-cover" />
             </div>
             <!-- Slide 2 -->
             <div class="swiper-slide flex items-center justify-center bg-gray-100 p-6 rounded-xl shadow">
-                <img src="chemin/vers/logo2.png" alt="Garanti Express" class="h-16 object-contain" />
+                <img src="./publics/assets/kambus.jpg" alt="Garanti Express" class="w-[100%] h-[100%] object-cover" />
             </div>
             <!-- Slide 3 -->
             <div class="swiper-slide flex items-center justify-center bg-gray-100 p-6 rounded-xl shadow">
-                <img src="chemin/vers/logo3.png" alt="General Express" class="h-16 object-contain" />
+                <img src="./publics/assets/kambus.jpg" alt="General Express" class="w-[100%] h-[100%] object-cover" />
             </div>
             <!-- Slide 4 -->
             <div class="swiper-slide flex items-center justify-center bg-gray-100 p-6 rounded-xl shadow">
-                <img src="chemin/vers/logo4.png" alt="Avenir Voyage" class="h-16 object-contain" />
+                <img src="./publics/assets/kambus.jpg" alt="Avenir Voyage" class="w-[100%] h-[100%] object-cover" />
             </div>
             <!-- Slide 5 -->
             <div class="swiper-slide flex items-center justify-center bg-gray-100 p-6 rounded-xl shadow">
-                <img src="chemin/vers/logo5.png" alt="TransCam" class="h-16 object-contain" />
+                <img src="./publics/assets/kambus.jpg" alt="TransCam" class="w-[100%] h-[100%] object-cover" />
             </div>
             <!-- Ajoute d'autres slides si besoin -->
         </div>

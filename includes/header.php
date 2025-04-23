@@ -10,13 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- Icônes Google (à inclure dans le <head> de ta page) -->
     <link href="./src/output.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <?php
     $title="home page kamerbus";
     ?>
     <title><?php $title ?? 'kamerbus' ?></title>
 </head>
 
-<body class="font-[Poppins] bg-white text-gray-800 dark:bg-[#121212] dark:text-white transition-colors duration-300">
+<body class="font-[monaspose] bg-white text-gray-800 dark:bg-[#121212] dark:text-white transition-colors duration-300">
     <?php
     require_once "navbar.php"
     ?>
