@@ -2,7 +2,7 @@
 require_once "includes/header.php";
 
 ?>
-<section class="bg-white min-h-screen px-6 py-12 md:px-16">
+<section class=" min-h-screen px-6 py-12 md:px-16">
   <!-- Titre -->
   <h2 class="text-3xl md:text-4xl font-bold text-[#121212] mb-6 text-center">
     Réservez votre billet en ligne
@@ -40,6 +40,10 @@ require_once "includes/header.php";
         <option>KamerBUS</option>
         <option>Finex</option>
         <option>Garanti Express</option>
+        <option>General Express</option>
+        <option>Global Express</option>
+        <option>Tresor Express</option>
+        <option>SGMV Express</option>
       </select>
     </div>
     <div class="flex items-end">
@@ -58,8 +62,8 @@ require_once "includes/header.php";
         <p class="font-bold">Global Voyages</p>
         <p>Départ : Douala – 08:30</p>
         <p>Arrivée : Yaoundé – 13:00</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 7 500 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+      <p class="text-[#FF7043] font-semibold">Prix :vip: 5 000 FCFA / classique:4.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
           Réserver ce billet
         </button>
       </div>
@@ -67,8 +71,8 @@ require_once "includes/header.php";
         <p class="font-bold">Finex Voyages</p>
         <p>Départ : Douala – 08:30</p>
         <p>Arrivée : Yaoundé – 13:00</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 7 500 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+       <p class="text-[#FF7043] font-semibold">Prix :vip: 5 000 FCFA / classique:4.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
           Réserver ce billet
         </button>
       </div>
@@ -76,8 +80,8 @@ require_once "includes/header.php";
         <p class="font-bold">General Voyages</p>
         <p>Départ : Douala – 08:30</p>
         <p>Arrivée : Yaoundé – 13:00</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 7 500 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+     <p class="text-[#FF7043] font-semibold">Prix :vip: 5 000 FCFA / classique:4.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
           Réserver ce billet
         </button>
       </div>
@@ -86,8 +90,17 @@ require_once "includes/header.php";
         <p class="font-bold">Garanti Express</p>
         <p>Départ : Douala – 10:00</p>
         <p>Arrivée : Yaoundé – 14:30</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 8 000 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+      <p class="text-[#FF7043] font-semibold">Prix :vip: 5 000 FCFA / classique:4.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+          Réserver ce billet
+        </button>
+      </div>
+      <div class="p-4 border rounded-lg shadow-sm">
+        <p class="font-bold">Noblesse Express</p>
+        <p>Départ : Douala – 10:00</p>
+        <p>Arrivée : Yaoundé – 14:30</p>
+        <p class="text-[#FF7043] font-semibold">Prix :vip: 4 500 FCFA / classique:2.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
           Réserver ce billet
         </button>
       </div>
@@ -95,17 +108,8 @@ require_once "includes/header.php";
         <p class="font-bold">Garanti Express</p>
         <p>Départ : Douala – 10:00</p>
         <p>Arrivée : Yaoundé – 14:30</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 8 000 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
-          Réserver ce billet
-        </button>
-      </div>
-      <div class="p-4 border rounded-lg shadow-sm">
-        <p class="font-bold">Garanti Express</p>
-        <p>Départ : Douala – 10:00</p>
-        <p>Arrivée : Yaoundé – 14:30</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 8 000 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+        <p class="text-[#FF7043] font-semibold">Prix :vip: 7 000 FCFA / classique:5.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
           Réserver ce billet
         </button>
       </div>
@@ -113,8 +117,8 @@ require_once "includes/header.php";
         <p class="font-bold">SGMV Express</p>
         <p>Départ : Douala – 10:00</p>
         <p>Arrivée : Yaoundé – 14:30</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 8 000 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+        <p class="text-[#FF7043] font-semibold">Prix :vip: 5 500 FCFA / classique:4.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
           Réserver ce billet
         </button>
       </div>
@@ -122,8 +126,8 @@ require_once "includes/header.php";
         <p class="font-bold">Tresor Express</p>
         <p>Départ : Douala – 10:00</p>
         <p>Arrivée : Yaoundé – 14:30</p>
-        <p class="text-[#FF7043] font-semibold">Prix : 8 000 FCFA</p>
-        <button class="mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
+        <p class="text-[#FF7043] font-semibold">Prix :vip: 5 000 FCFA / classique:4.000FCFA</p>
+        <button class="dark:bg-[#FF7043] mt-2 bg-[#121212] text-white py-2 px-4 rounded hover:opacity-90 transition">
           Réserver ce billet
         </button>
       </div>

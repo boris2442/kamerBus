@@ -764,6 +764,11 @@
       background-color: #121212;
     }
   }
+  .dark\:bg-\[\#FF7043\] {
+    &:where(.dark, .dark *) {
+      background-color: #FF7043;
+    }
+  }
   .dark\:text-\[\#f1f1f1\] {
     &:where(.dark, .dark *) {
       color: #f1f1f1;
