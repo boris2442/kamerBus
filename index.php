@@ -6,7 +6,7 @@ require_once "includes/header.php";
   <!-- Texte -->
   <div class="max-w-xl mb-8 lg:mb-0">
     <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 uppercase">
-      Réservez votre voyage en toute simplicité avec KamerBUS
+      Réservez votre voyage en toute simplicité avec KAMERBUS
     </h1>
     <p class="text-base sm:text-lg md:text-xl leading-relaxed mb-6">
       KAMERBUS vous permet de réserver vos billets de bus en ligne en quelques clics. Évitez les files d’attente, comparez les horaires et voyagez sereinement partout au Cameroun.
