@@ -1,7 +1,7 @@
 <?php
 define("DBHOST", "localhost");
 define("DBUSER", "root");
-define("DBNAME", "gestion_des_taches");
+define("DBNAME", "gestion_bus_cameroun");
 define("DBPASS", "");
 $dsn = "mysql:dbname=" . DBNAME . "; host=" . DBHOST;
 try {

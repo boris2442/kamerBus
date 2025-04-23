@@ -472,6 +472,9 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .text-\[\#\#FF7043\] {
+    color: ##FF7043;
+  }
   .text-\[\#121212\] {
     color: #121212;
   }

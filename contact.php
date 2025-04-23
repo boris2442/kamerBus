@@ -1,5 +1,8 @@
-
 <?php
+require_once "traitement-form-contact.php";
+?>
+<?php
+$title="Contact - Kamerbus";
 require_once "includes/header.php";
 ?>
 <section id="contact" class="w-full px-4 py-16 dark:text-[#f1f1f1] dark:bg-[#121212] bg-white">
@@ -19,20 +22,20 @@ require_once "includes/header.php";
     </div>
 
     <!-- Formulaire -->
-    <form method="POST" class="animate-fade-in-up duration-700 delay-200 space-y-4" action="traitement-form-contact.php">
+    <form method="POST" class="animate-fade-in-up duration-700 delay-200 space-y-4" >
       <div>
         <label class="block mb-1 text-sm text-gray-700 dark:text-[#f1f1f1]">Nom complet</label>
-        <input type="text" placeholder="Votre nom" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7043] dark:text-[#f1f1f1] dark:placeholder-white" required>
+        <input type="text" placeholder="Votre nom" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7043] dark:text-[#f1f1f1] dark:placeholder-white" name="name" required>
       </div>
 
       <div>
         <label class="block mb-1 text-sm text-gray-700 dark:text-[#f1f1f1]">Email</label>
-        <input type="email" placeholder="exemple@email.com" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7043]  focus:dark:text-[#f1f1f1] dark:placeholder-white" required>
+        <input type="email" placeholder="exemple@email.com" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7043]  focus:dark:text-[#f1f1f1] dark:placeholder-white" name="email" required>
       </div>
 
       <div>
         <label class="block mb-1 text-sm text-gray-700 dark:text-[#f1f1f1]">Message</label>
-        <textarea rows="5" placeholder="Écrivez votre message ici..." class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7043] dark:text-[#f1f1f1] dark:placeholder-white resize-none" required></textarea>
+        <textarea rows="5" placeholder="Écrivez votre message ici..." class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7043] dark:text-[#f1f1f1] dark:placeholder-white resize-none" name="message" required></textarea>
       </div>
 
       <button type="submit" class="bg-[#FF7043] hover:bg-[#e75b2f] text-white font-semibold px-6 py-3 rounded-xl transition-all">
