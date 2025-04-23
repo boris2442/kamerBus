@@ -30,8 +30,8 @@
         <div class="flex flex-col gap-[10px]">
             <a href="index" class="nav-link text-[15px]">Home</a>
             <a href="about" class="nav-link text-[15px]">About</a>
-            <a href="compagnie" class="nav-link">compagnies</a>
-            <a href="contact" class="nav-link">contact</a>
+            <a href="compagnie" class="nav-link text-[15px]">compagnies</a>
+            <a href="contact" class="nav-link text-[15px]">contact</a>
             <a href="contact" class="nav-link text-[15px]">Reservez</a>
         </div>
     </div>

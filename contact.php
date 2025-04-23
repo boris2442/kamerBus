@@ -19,7 +19,7 @@ require_once "includes/header.php";
     </div>
 
     <!-- Formulaire -->
-    <form class="animate-fade-in-up duration-700 delay-200 space-y-4">
+    <form method="POST" class="animate-fade-in-up duration-700 delay-200 space-y-4" action="traitement-form-contact.php">
       <div>
         <label class="block mb-1 text-sm text-gray-700 dark:text-[#f1f1f1]">Nom complet</label>
         <input type="text" placeholder="Votre nom" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7043] dark:text-[#f1f1f1] dark:placeholder-white" required>
