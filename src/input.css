@@ -32,3 +32,22 @@
 .nav-link.active {
     text-shadow: 0 0 8px rgba(255, 112, 67, 0.8);
 }
+
+.caer{
+    position:relative;
+    color:#fff;
+    border:2px solid red;
+}
+.caer::after{
+    content:"";
+    position:absolute;
+    transform-origin:left;
+    z-inded:-1
+}
+.caer:hover::after{
+    transform:scaleX(1);
+
+}
+.caer:hover{
+    color:#121212;
+}
