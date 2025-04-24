@@ -9,10 +9,10 @@ require_once "includes/header.php";
   </h2>
 
   <!-- Formulaire de recherche -->
-  <form class="bg-gray-100 p-6 rounded-2xl shadow-md grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+  <form class="bg-gray-100 dark:bg-[#121212] dark:text-white p-6 rounded-2xl shadow-md grid gap-4 md:grid-cols-2 lg:grid-cols-3 dark:shadow-emerald-500  ">
     <div>
       <label class="block text-sm font-medium mb-1">Ville de départ</label>
-      <select class="w-full p-2 rounded bg-white border border-gray-300">
+      <select class="w-full p-2 rounded bg-white dark:bg-[#e45b30] border border-gray-300 :placeholder:dark:text-white">
         <option>Douala</option>
         <option>Yaoundé</option>
         <option>Bafoussam</option>
@@ -20,7 +20,7 @@ require_once "includes/header.php";
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Ville d’arrivée</label>
-      <select class="w-full p-2 rounded bg-white border border-gray-300">
+      <select class="w-full p-2 rounded bg-white border border-gray-300 dark:bg-[#e45b30]">
         <option>Yaoundé</option>
         <option>Douala</option>
         <option>Garoua</option>
@@ -28,15 +28,15 @@ require_once "includes/header.php";
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Date du départ</label>
-      <input type="date" class="w-full p-2 rounded border border-gray-300 bg-white" />
+      <input type="date" class="dark:bg-[#e45b30] w-full p-2 rounded border border-gray-300 bg-white"  />
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Nombre de places</label>
-      <input type="number" min="1" value="1" class="w-full p-2 rounded border border-gray-300 bg-white" />
+      <input type="number" min="1" value="1" class="dark:bg-[#e45b30] w-full p-2 rounded border border-gray-300 bg-white " />
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Compagnie</label>
-      <select class="w-full p-2 rounded bg-white border border-gray-300">
+      <select class="w-full p-2 rounded bg-white border border-gray-300 dark:bg-[#e45b30]">
         <option>KamerBUS</option>
         <option>Finex</option>
         <option>Garanti Express</option>
@@ -48,7 +48,7 @@ require_once "includes/header.php";
     </div>
     <div class="flex items-end">
       <button type="submit" class="w-full bg-[#FF7043] text-white py-2 px-4 rounded hover:bg-[#e45b30] transition">
-        Rechercher
+        Rechercher 
       </button>
     </div>
   </form>
