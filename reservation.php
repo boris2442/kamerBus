@@ -12,38 +12,39 @@ require_once "includes/header.php";
   <form class="bg-gray-100 dark:bg-[#121212] dark:text-white p-6 rounded-2xl shadow-md grid gap-4 md:grid-cols-2 lg:grid-cols-3 dark:shadow-emerald-500  ">
     <div>
       <label class="block text-sm font-medium mb-1">Ville de départ</label>
-      <select class="w-full p-2 rounded bg-white dark:bg-[#e45b30] border border-gray-300 :placeholder:dark:text-white">
-        <option>Douala</option>
-        <option>Yaoundé</option>
-        <option>Bafoussam</option>
+      <select class="w-full p-2 rounded  dark:bg-[#e45b30] border border-gray-300 :placeholder:dark:text-white">
+        <option class="text-[#121212]">Douala</option>
+        <option class="text-[#121212]">Yaoundé</option>
+        <option class="text-[#121212]">Bafoussam</option>
       </select>
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Ville d’arrivée</label>
-      <select class="w-full p-2 rounded bg-white border border-gray-300 dark:bg-[#e45b30]">
-        <option>Yaoundé</option>
-        <option>Douala</option>
-        <option>Garoua</option>
+      <select class="w-full p-2 rounded  border border-gray-300 dark:bg-[#e45b30]">
+        <option>selectionne une destination</option>
+        <option class="text-[#121212]">Yaoundé</option>
+        <option class="text-[#121212]">Douala</option>
+        <option class="text-[#121212]">Garoua</option>
       </select>
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Date du départ</label>
-      <input type="date" class="dark:bg-[#e45b30] w-full p-2 rounded border border-gray-300 bg-white"  />
+      <input type="date" class="dark:bg-[#e45b30] w-full p-2 rounded border border-gray-300 "  />
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Nombre de places</label>
-      <input type="number" min="1" value="1" class="dark:bg-[#e45b30] w-full p-2 rounded border border-gray-300 bg-white " />
+      <input type="number" min="1" value="1" class="dark:bg-[#e45b30] w-full p-2 rounded border border-gray-300 " />
     </div>
     <div>
       <label class="block text-sm font-medium mb-1">Compagnie</label>
-      <select class="w-full p-2 rounded bg-white border border-gray-300 dark:bg-[#e45b30]">
-        <option>KamerBUS</option>
-        <option>Finex</option>
-        <option>Garanti Express</option>
-        <option>General Express</option>
-        <option>Global Express</option>
-        <option>Tresor Express</option>
-        <option>SGMV Express</option>
+      <select class="dark:bg-[#e45b30] w-full p-2 rounded border border-gray-300 ">
+        <option class="text-[#121212]">KamerBUS</option>
+        <option class="text-[#121212]">Finex</option>
+        <option class="text-[#121212]">Garanti Express</option>
+        <option class="text-[#121212]">General Express</option>
+        <option class="text-[#121212]">Global Express</option>
+        <option class="text-[#121212]">Tresor Express</option>
+        <option class="text-[#121212]">SGMV Express</option>
       </select>
     </div>
     <div class="flex items-end">
